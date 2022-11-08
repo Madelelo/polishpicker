@@ -1,12 +1,13 @@
 <script>
-  import svelteLogo from './assets/svelte.svg'
-  import Counter from './lib/Counter.svelte'
+  import Navbar from "./components/navbar.svelte";
 </script>
 
 <main>
-  <div>Hello world</div>
+  <Navbar season={"Fall"} />
 </main>
 
 <style>
-  ´
+  body {
+    background-color: #dcc2ff;
+  }
 </style>
