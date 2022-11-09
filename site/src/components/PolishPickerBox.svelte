@@ -4,7 +4,6 @@
 
 <div class="picker-box">
   <div class="picker-view">{title}</div>
-
   <div class="picker-buttons">
     <div class="picker-button">Left</div>
     <div class="picker-button">"||"</div>
@@ -15,7 +14,7 @@
 <style>
   .picker-box {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
 
     width: 34vw;
@@ -25,13 +24,12 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 15%;
+    padding: 0.25rem 0 0 0;
   }
   .picker-button {
     text-align: center;
     background-color: #aeaeae;
 
-    height: 95%;
     width: 30%;
     padding-top: 0.5rem;
 
@@ -46,6 +44,8 @@
     border-width: 0.25rem 0.5rem 0.5rem 0.25rem;
     border-color: #666666;
 
-    height: 78%;
+    padding: 0 0 0.25rem 0;
+
+    height: 100%;
   }
 </style>
