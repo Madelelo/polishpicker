@@ -24,7 +24,7 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 0.25rem 0 0 0;
+    padding: 0.25rem 0;
   }
   .picker-button {
     text-align: center;

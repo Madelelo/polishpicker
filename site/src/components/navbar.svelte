@@ -24,11 +24,12 @@
   }
   .box {
     margin: auto;
+    text-align: center;
     border-style: solid;
     border-bottom-width: 0.25rem;
     border-color: #6668b0;
     padding: 0.1rem 0.5rem;
-    width: 20%;
+    width: 50%;
   }
 
   h2 {
