@@ -1,6 +1,5 @@
 <script>
   import Footer from "./components/Footer.svelte";
-  import Navbar from "./components/Navbar.svelte";
   import sanityClient from "@sanity/client";
   import PolishListPage from "./components/PolishListPage.svelte";
 
@@ -31,8 +30,6 @@
 </script>
 
 <main>
-  <Navbar />
-
   {#await get()}
     <p>...waiting</p>
   {:then polish}
