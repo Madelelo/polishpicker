@@ -1,9 +1,10 @@
 <script>
   export let title;
+  export let nailpolish;
 </script>
 
 <div class="picker-box">
-  <div class="picker-view">{title}</div>
+  <div class="picker-view">{nailpolish.colorName}</div>
   <div class="picker-buttons">
     <div class="picker-button">Left</div>
     <div class="picker-button">"||"</div>
@@ -16,6 +17,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
 
     width: 34vw;
     height: 15rem;

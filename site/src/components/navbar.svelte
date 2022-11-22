@@ -1,10 +1,9 @@
 <script>
-  export let season;
 </script>
 
 <div class="navbar">
   <div class="container"><h2>Madeleines Negelakkhylle</h2></div>
-  <div class="container"><div class="box"><h3>{season} Polish</h3></div></div>
+  <div class="container"><div class="box"><h3>Polish list</h3></div></div>
   <div class="container" />
 </div>
 

@@ -1,15 +1,26 @@
 <script>
   import PolishPickerBox from "./PolishPickerBox.svelte";
+  export let polishes;
+  console.log(polishes.nailpolish[0].colorName);
 </script>
 
 <div class="picker-menu">
   <div class="picker-button" id="left">Browse</div>
 
   <div class="picker-main-content">
-    <PolishPickerBox title={"Nail Art"} />
-    <PolishPickerBox title={"Nail Polish nr. 1"} />
-    <PolishPickerBox title={"Nail Polish nr. 2"} />
-    <PolishPickerBox title={"Nail Polish nr. 3"} />
+    <PolishPickerBox nailpolish={polishes.nailpolish[0]} title={"TEST"} />
+    <PolishPickerBox
+      nailpolish={polishes.nailpolish[1]}
+      title={"Nail Polish nr. 1"}
+    />
+    <PolishPickerBox
+      nailpolish={polishes.nailpolish[1]}
+      title={"Nail Polish nr. 2"}
+    />
+    <PolishPickerBox
+      nailpolish={polishes.nailpolish[1]}
+      title={"Nail Polish nr. 3"}
+    />
   </div>
   <div class="picker-button" id="right">Auto polish</div>
 </div>

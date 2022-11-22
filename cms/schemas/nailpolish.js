@@ -6,15 +6,16 @@ export default {
   title: "Nail Polish",
   fields: [
     {
-      name: "color",
-      type: "string",
-      title: "Color",
-    },
-    {
       name: "colorName",
       type: "string",
       title: "Color Name",
     },
+    {
+      name: "color",
+      type: "string",
+      title: "Color",
+    },
+
     {
       name: "colorValue",
       title: "Color Value",
@@ -36,14 +37,14 @@ export default {
       title: "Polish Type",
       options: {
         list: [
-          { title: "Creme", value: "creme" },
-          { title: "Multichrome", value: "multichrome" },
-          { title: "Holographic", value: "holographic" },
-          { title: "Glitter", value: "glitter" },
-          { title: "Topper", value: "topper" },
-          { title: "Metallic", value: "metallic" },
-          { title: "Top coat", value: "topcoat" },
-          { title: "Base coat", value: "basecoat" },
+          { title: "Creme", value: "Creme" },
+          { title: "Multichrome", value: "Multichrome" },
+          { title: "Holographic", value: "Holographic" },
+          { title: "Glitter", value: "Glitter" },
+          { title: "Topper", value: "Topper" },
+          { title: "Metallic", value: "Metallic" },
+          { title: "Top coat", value: "Topcoat" },
+          { title: "Base coat", value: "Basecoat" },
         ],
         layout: "radio",
         direction: "horizontal",
@@ -56,8 +57,8 @@ export default {
       title: "Color Type",
       options: {
         list: [
-          { title: "Warm", value: "warm" },
-          { title: "Cold", value: "cold" },
+          { title: "Warm", value: "Warm" },
+          { title: "Cold", value: "Cold" },
         ],
         layout: "radio",
         direction: "horizontal",
@@ -69,10 +70,10 @@ export default {
       title: "Brand",
       options: {
         list: [
-          { title: "Essie", value: "essie" },
-          { title: "HM", value: "hm" },
-          { title: "Holo Taco", value: "holotaco" },
-          { title: "Misc", value: "misc" },
+          { title: "Essie", value: "Essie" },
+          { title: "HM", value: "HM" },
+          { title: "Holo Taco", value: "Holo Taco" },
+          { title: "Misc", value: "Misc" },
         ],
         layout: "radio",
         direction: "horizontal",
