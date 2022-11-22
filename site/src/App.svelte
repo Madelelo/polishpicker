@@ -31,7 +31,6 @@
 </script>
 
 <main>
-  <Navbar />
   {#await get()}
     <p>...waiting</p>
   {:then polish}
@@ -41,4 +40,5 @@
   {/await}
 
   <Footer />
+  <Navbar />
 </main>
