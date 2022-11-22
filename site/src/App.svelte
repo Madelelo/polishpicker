@@ -31,7 +31,7 @@
 </script>
 
 <main>
-  <Navbar season={"Fall"} />
+  <Navbar />
 
   {#await get()}
     <p>...waiting</p>
