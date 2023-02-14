@@ -2,16 +2,16 @@
 	<div class="container"><h2>Madeleines Negelakkhylle</h2></div>
 	<div class="container">
 		<div class="box">
-			<h3>
+			<h2>
 				<a href="/">Polishes</a>
-			</h3>
+			</h2>
 		</div>
 	</div>
 	<div class="container">
 		<div class="box">
-			<h3>
+			<h2>
 				<a href="/polishpicker">Polishpicker</a>
-			</h3>
+			</h2>
 		</div>
 	</div>
 </div>
@@ -41,11 +41,6 @@
 	}
 
 	h2 {
-		font-weight: bolder;
-		font-size: medium;
-		color: #eee4fa;
-	}
-	h3 {
 		font-weight: bolder;
 		font-size: small;
 		color: #eee4fa;

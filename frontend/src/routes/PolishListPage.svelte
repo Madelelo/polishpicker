@@ -15,6 +15,7 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: space-around;
+		gap: 10px;
 		width: 75vw;
 
 		margin: auto;
